@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	display: box;
+	font-family: 'Montserrat', sans-serif;
+	color: #5B5B5B;
+	
+}
+
+.todo:before {
+	content: "";
+	position: fixed;
+	top: -5%;
+	left: -5%;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	  
+	display: block;
+	background-image: url('https://wallpapercave.com/wp/wp6244315.jpg');
+	background-size:cover;
+	width: 110%;
+	height: 110%;
+	  
+ 	-webkit-filter: blur(4px);
+	-moz-filter: blur(4px);
+}
+
+.altaCont{
+	border-radius: 0px 0px 20px 20px;
+	width: 380px;
+	height: 570x;
+	background-color: #FFFFFF;
+}
+	
+
+
+.titulo h1{
+	color: #FFFFFF;
+	font-weight: normal;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.cuerpo{
+	align-items: center; 
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	color: #5B5B5B;	
+}
+
+.titulo{
+	border-radius: 20px 20px 0px 0px;
+	background-color: #021e26;
+	text-align: center;
+	overflow: hidden;
+	height: auto;
+	width: fit-content;
+	align-items: center;
+	margin-top: 2%;
+}
+
+.titulo h1{
+	color: #FFFFFF;
+	font-weight: normal;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.titulo span{
+	color: #BD255E;
+	font-weight: normal;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+	
+

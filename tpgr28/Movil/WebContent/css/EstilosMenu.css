@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.tituloMenu {
+	color: #FFFFFF;
+	font-weight: normal;
+	font-weight: bold;
+}
+
+.tituloMenu span{
+	color: #BD255E;
+	font-weight: normal;
+	font-weight: bold;
+}
+
+.boton {
+	border-color: #BD255E; 
+	border-color: #BD255E; 
+	color: #BD255E;
+}
